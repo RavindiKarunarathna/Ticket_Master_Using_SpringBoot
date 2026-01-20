@@ -1,4 +1,7 @@
 package org.example.exception;
 
-public class SeatLockedException {
+public class SeatLockedException extends RuntimeException{
+    public SeatLockedException(String message){
+        super(message);
+    }
 }
