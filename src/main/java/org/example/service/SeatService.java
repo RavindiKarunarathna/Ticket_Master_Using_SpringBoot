@@ -1,6 +1,7 @@
 package org.example.service;
 
 import lombok.RequiredArgsConstructor;
+import org.example.exception.SeatLockedException;
 import org.example.model.entity.Seat;
 import org.example.repository.SeatRepository;
 import org.springframework.stereotype.Service;
