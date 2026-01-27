@@ -12,7 +12,7 @@ public class BookingService {
 
     public void confirmBooking(Long userId, Long seatId){
         try{
-            throw new RuntimeException("Payment failed - bot suspected")
+            throw new RuntimeException("Payment failed - bot suspected");
         }catch (Exception ex){
             AuditLog log = new AuditLog();
             log.setUserID(userId);
